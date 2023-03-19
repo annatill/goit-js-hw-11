@@ -13,7 +13,6 @@ const paramsSearch = {
 export default class ImagesApiClient {
   constructor() {
     this.page = 1;
-    // this.searchQuery = '';
   }
 
   async fetchImages(searchQuery) {
